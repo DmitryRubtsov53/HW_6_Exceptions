@@ -2,7 +2,6 @@ public class Data {
     private static final String CHARS_CHECK = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_0123456789" ;
     private Data() {
     }
-
  // methods _______________________________________________________________________________________________
     public static boolean validate (String login, String password, String confirmPassword)  {
         try {
